@@ -1,0 +1,48 @@
+# =============== #
+# Unity .gitignore
+# =============== #
+
+# Кэш Unity и генерируемые папки (работает как для корня, так и для всех подпапок)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Сгенерированные файлы проектов IDE (Visual Studio, Rider, VS Code)
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+.vsconfig
+
+# Папки конфигураций IDE
+.vs/
+.idea/
+.vscode/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Unity CrashHandler
+sysinfo.txt
+crash*
+
+# Примечание:
+# Не игнорируйте файлы .meta! Они обязательно должны быть в репозитории.
